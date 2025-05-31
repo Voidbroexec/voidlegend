@@ -3,7 +3,7 @@ build: {
     output: {
       manualChunks: {
         three: ['three'],
-        tween: ['@tweenjs/tween.js']
+        tween: '@tweenjs/tween.js'
       }
     }
   }
