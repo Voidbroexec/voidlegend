@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VOID_LEGENDY :: SPEED DAEMON</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-_XWzzCrW.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CHC5ow4c.css">
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="glitch-overlay"></div>
+    <canvas id="bg"></canvas>
+
+    <nav>
+      <button class="nav-btn active" data-page="home">INIT</button>
+      <button class="nav-btn" data-page="skills">EXEC</button>
+      <button class="nav-btn" data-page="exploits">PWN</button>
+    </nav>
+
+    <main>
+      <!-- Home Page -->
+      <section id="home" class="page active">
+        <header>
+          <div class="terminal-header">
+            <span class="terminal-prompt">root@void:~# </span>
+            <span class="typing-text">whoami</span>
+          </div>
+          <h1>VOID_LEGENDY.exe</h1>
+          <p class="subtitle">/ / SPEED DAEMON / CHAOS ARCHITECT / /</p>
+        </header>
+
+        <div class="content-block left terminal-style">
+          <div class="terminal-header">
+            <span class="terminal-prompt">root@void:~# </span>
+            <span class="typing-text">cat holy_trinity.txt</span>
+          </div>
+          <h2>💻 THE HOLY TRINITY OF SPEED</h2>
+          <div class="trinity-container">
+            <div class="trinity-item">
+              <h3>C: THE CHAOS ARCHITECT</h3>
+              <p>"Memory leaks? I call them 'feature flags.'"</p>
+              <p>"Wrote a bootloader at 16 just to skip BIOS splash screens."</p>
+              <p>"Your 'safe' language segfaults. My C code segfaults with purpose."</p>
+            </div>
+            <div class="trinity-item">
+              <h3>RUST: THE BORROW CHECKER'S OVERLORD</h3>
+              <p>"My unsafe blocks come with a 'Do Not Panic' sticker."</p>
+              <p>"If it compiles, it's already faster than your GPU."</p>
+              <p>"NASA uses my Rust code. The ISS? Basically my CI/CD playground."</p>
+            </div>
+            <div class="trinity-item">
+              <h3>GO: THE "I NEED SPEED BUT ALSO A LIFE" OPTION</h3>
+              <p>"Goroutines are my army. Channels are my NSA wiretap."</p>
+              <p>"Your 'scalable' microservice? Mine scales before you hit deploy."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Page -->
+      <section id="skills" class="page">
+        <div class="terminal-header">
+          <span class="terminal-prompt">root@void:~# </span>
+          <span class="typing-text">./list_arsenal.sh</span>
+        </div>
+        
+        <div class="skill-matrix">
+          <div class="skill-category">
+            <h3>🐍 LEGACY_WEAPONS</h3>
+            <div class="skill-item" data-level="85">
+              <span class="skill-name">PYTHON</span>
+              <p>"I keep it around like a tamagotchi—alive, but barely."</p>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="90">
+              <span class="skill-name">LUA</span>
+              <p>"Injected into everything that moves."</p>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>🦜 BATTLE_STATION</h3>
+            <div class="skill-item" data-level="95">
+              <span class="skill-name">PARROT OS</span>
+              <p>"My playground for legal chaos."</p>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="92">
+              <span class="skill-name">PENTEST</span>
+              <p>"I break things with style."</p>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Exploits Page -->
+      <section id="exploits" class="page">
+        <div class="terminal-header">
+          <span class="terminal-prompt">root@void:~# </span>
+          <span class="typing-text">cat /dev/exploits</span>
+        </div>
+        
+        <div class="exploit-grid">
+          <article class="exploit-card">
+            <h3>🌐 WEB_EXPLOITS</h3>
+            <p>"Your 'sanitized' input? I bypassed it with &lt;&lt;script&gt;alert(1)// before your coffee cooled."</p>
+            <div class="exploit-tech">
+              <span>XSS</span>
+              <span>SQLi</span>
+              <span>JWT</span>
+            </div>
+          </article>
+
+          <article class="exploit-card">
+            <h3>🔍 BLUE_TEAM</h3>
+            <p>"My alerts fire before the breach. Yes, it's legal precognition."</p>
+            <div class="exploit-tech">
+              <span>SIEM</span>
+              <span>YARA</span>
+              <span>HONEYPOTS</span>
+            </div>
+          </article>
+
+          <article class="exploit-card">
+            <h3>💀 WEAKNESSES</h3>
+            <p>"Sleep: Overrated. My terminal uptime beats your lifespan."</p>
+            <div class="exploit-tech">
+              <span>NONE</span>
+              <span>VOID</span>
+              <span>NULL</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const cursor = document.querySelector('.cursor');
+      document.addEventListener('mousemove', (e) => {
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+      });
+    </script>
+  </body>
+</html> 
