@@ -1,9 +1,20 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { resolve } from 'path'
 
 export default defineConfig({
-  plugins: [react()],
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html')
+      }
+    },
+    // Don't try to optimize dependencies for this setup
+    emptyOutDir: true,
+    // Output directory
+    outDir: 'dist'
+  },
+  // Disable dependency optimization since you're not importing modules
   optimizeDeps: {
-    include: ['@tweenjs/tween.js'] // Corrected syntax
+    disabled: true
   }
 })
