@@ -1,7 +1,6 @@
 {
-  "name": "template_for_threejs(your-websitein3d)",
+  "name": "mypersite",
   "version": "1.0.0",
-  "description": "A Three.js template for creating 3D resumes",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
