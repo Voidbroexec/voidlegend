@@ -1,4 +1,4 @@
-💻 "THE HOLY TRINITY OF SPEED"
+ "THE HOLY TRINITY OF SPEED"
 1. C: THE CHAOS ARCHITECT
 
     "Memory leaks? I call them ‘feature flags.’"
@@ -23,7 +23,7 @@
 
     "Your ‘scalable’ microservice? Mine scales before you hit deploy."
 
-🐍 "PYTHON: MY ‘UNCLE MODE’ LEGACY CODE"
+ "PYTHON: MY ‘UNCLE MODE’ LEGACY CODE"
 
     "I keep it around like a tamagotchi—alive, but barely."
 
@@ -47,11 +47,11 @@
 
     "If I wanted garbage collection, I’d use a broom."
 
-    "Windows is my ‘last resort’ OS—right after TempleOS."
+    "Windows is my ‘last resort’ OS right after TempleOS."
 
     "Ported all my C# friends to Go. They’re happier now."
 
-🦜 "PARROT OS: MY ANON BATTLE STATION"
+ "PARROT OS: MY ANON BATTLE STATION"
 
     Tools of the Trade:
 
@@ -67,7 +67,7 @@
 
         Radare2: "For when I want to feel like a medieval knight… but with opcodes."
 
-🌐 "WEB EXPLOITS: MY PLAYGROUND"
+ "WEB EXPLOITS: MY PLAYGROUND"
 
     XSS: "Your ‘sanitized’ input? I bypassed it with <<script>alert(1)// before your coffee cooled."
 
@@ -75,7 +75,7 @@
 
     JWT Cracking: "Your ‘secure’ tokens are my comedy material."
 
-🔍 "BLUE TEAM? I PLAY BOTH SIDES"
+ "BLUE TEAM? I PLAY BOTH SIDES"
 
     SIEM Sorcery: "My alerts fire before the breach. Yes, it’s illegal precognition."
 
@@ -83,13 +83,13 @@
 
     Honeytokens: "Placed fake Bitcoin wallets in our DB. Caught the dean mining Monero."
 
-🎵 "I PENTEST TO MOZART, CODE TO PHONK"
+ "I PENTEST TO MOZART, CODE TO PHONK"
 
     Bluetooth ‘Research’: "Reverse-engineered a college speaker to play Rick Astley during finals. For ‘science.’"
 
     WiFi ‘Audits’: "Your captive portal is my canvas. The art? Chaos."
 
-💀 "WEAKNESSES? IMAGINARY"
+ "WEAKNESSES? IMAGINARY"
 
     Sleep: "Overrated. My terminal uptime beats your lifespan."
 
@@ -97,7 +97,7 @@
 
     Ethics: "A mild suggestion."
 
-🎯 "WHEN I ENTER A ROOM"
+ "WHEN I ENTER A ROOM"
 
     Compilers optimize themselves out of fear.
 
@@ -107,6 +107,6 @@
 
 TL;DR: "C for chaos, Rust for dominance, Go for war. Python is my past, Lua is my secret weapon, and .NET is my sleep paralysis demon. I break things faster than you can build them, and I secure them better than you ever could."
 
-(P.S. Windows users: I’ll pray for you. From my Linux terminal.) 🐧💻
+(P.S. Windows users: I’ll pray for you. From my Linux terminal.) 
 
-🔥 BONUS FLEX: "I could write a .NET plugin… but I’d rather rewrite Windows in Rust."
+ BONUS FLEX: "I could write a .NET plugin… but I’d rather rewrite Windows in Rust."
